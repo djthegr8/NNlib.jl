@@ -35,3 +35,7 @@ end
 @testset "Softmax" begin
     include("softmax.jl")
 end
+
+@testset "Upsampling" begin
+    include("upsample.jl")
+end
